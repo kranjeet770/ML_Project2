@@ -6,16 +6,16 @@ I got Census Income data which contains several features. As it was not fit for 
 2.As Education and Education.num columns have exactly one to one to correspondance,removed education column.
 
 Now, used training data for creating predictive models.
-1. LinearRegression
-2. Lasso
-3. Ridge
-4. DecisionTreeRegressor
-5. RandomForestRegressor
-6. GradientBoostingRegressor
+1. LogisticRegression
+2. DecisionTreeClassifier
+3. RandomForestClassifier
+4. GradientBoostingClassifier
+5. XGBClassifier
+6. NeuralNetwork
 7. XGBRegressor
-8. MLPRegressor(Neural network)
-9. KNeighborsRegressor
-10. SVR(Support Vector Regressor)
+8. MLPClassifier(Neural network)
+9. KNeighborsClassifier
+10. SVC(Support Vector Classifier)
 11. Stacking of 7 different models
 
 After fitting data into these above models,got some roc_auc_Score for each of these models.
