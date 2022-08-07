@@ -11,12 +11,11 @@ Now, used training data for creating predictive models.
 3. RandomForestClassifier
 4. GradientBoostingClassifier
 5. XGBClassifier
-6. NeuralNetwork
-7. XGBRegressor
-8. MLPClassifier(Neural network)
-9. KNeighborsClassifier
-10. SVC(Support Vector Classifier)
-11. Stacking of 7 different models
+6. MLPClassifier(Neural network)
+7. KNeighborsClassifier
+8. SVC(Support Vector Classifier)
+9. Naive Bayes
+10. Stacking of 7 different models
 
 After fitting data into these above models,got some roc_auc_Score for each of these models.
 [['LogisticRegression', 0.8201600843951002],
@@ -25,7 +24,6 @@ After fitting data into these above models,got some roc_auc_Score for each of th
  ['GradientBoostingClassifier', 0.8365396088532918],
  ['XGBClassifier', 0.835611480396575],
  ['NeuralNetwork', 0.5128322929042567],
- ['KNeighborsClassifier', 0.6260010395755664],
  ['KNeighborsClassifier', 0.6260010395755664],
  ['SVC', 0.5128747977180548],
  ['Naive_bayes', 0.6004818919251096],
